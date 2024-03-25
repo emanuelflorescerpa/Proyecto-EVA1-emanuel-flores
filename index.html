@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,800;1,500;1,800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="lib/css/main.css">
+    <title>Vuela Lejos</title>
+</head>
+<body style="background-color: #1b0088;">
+    <!-- Inicio: Panel de Navegación -->
+    <nav class="navbar navbar-expand-lg text-white" style="background-color: #1b0088;" data-bs-theme="dark">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                    <img src="lib/images/logo.png" class="mt-1 mb-1" width="50px" alt="Logo de Vuela lejos">
+                </div>
+                <div class="flex-grow-1 fs-3 fw-bold ms-3">
+                    <span style="color: #047713;">Vuela</span> Lejos
+                </div>
+            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <h5>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#" >Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/destinos.html" >Destino</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/hotels.html" >Hoteles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/faq.html" >Centro de ayuda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html" >Contacto</a>
+              </li>
+            </ul>
+          </h5>
+          </div>
+        </div>   
+    </nav>
+    <!-- Fin: Panel de Navegación-->
+    <!-- Sección del header -->
+    <header>
+        <!-- Inicio del carousel -->
+        <div id="carouselExampleCaptions" class="carousel slide border-bottom">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <!-- 1° Imagen del Carrusel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption" style="left: 0; right: 0;">
+                <div class="carousel-box pt-3 mb-3">
+                  <h1 class="fw-bolder"><span style="color: #047713;">Vuela</span> Lejos y seguro.</h1>
+                  <p class="fs-4">Revisa todos nuestros destinos y realiza el viaje que siempre soñaste.</p>
+                  <a class="btn btn-outline-success me-2" type="button" href="pages/destinos.html"> Destinos</a>
+                </div>
+              </div>
+            </div>
+            <!-- 2° Imagen del Carrusel -->
+            <div class="carousel-item">
+              <div class="carousel-caption" style="left: 0; right: 0;">
+                <div class="carousel-box pt-3 mb-3">
+                  <h1 class="fw-bolder">¿Aún no has reservado tu hotel?</h1>
+                  <p class="fs-4">Revisa toda nuestra oferta hotelera y disfruta tu estadia.</p>
+                  <a class="btn carousel-btn mb-4" href="pages/hotels.html"> Hoteles</a>
+                </div>
+              </div>
+            </div>
+            <!-- 3° Imagen del Carrusel -->
+            <div class="carousel-item">
+              <div class="carousel-caption" style="left: 0; right: 0;">
+                <div class="carousel-box pt-3 mb-3">
+                  <h1 class="fw-bolder">¿Aún tienes dudas?</h1>
+                  <p class="fs-4">Revisanuestra sección de preguntas frecuentes y resuelve tus dudas.</p>
+                  <a class="btn carousel-btn mb-4" href="pages/faq.html">Preguntas Frecuentes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Botones del Carrusel -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Fin del carousel -->
+    </header>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted fixed-bottom border-top">
+    
+        <!-- Seccion Copyright -->
+        <div class="text-center p-2 border-top" style="background-color: rgba(0, 0, 0, 0.05);">
+        
+        <p class="text-reset fw-bold" target="_blank">© 2024 Copyright: Derechos reservados Vuela Lejos</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+</body>
+<!-- Scripts, Bootstrap and jQuery-->
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/9853b814db.js" crossorigin="anonymous"></script>
+</html>
