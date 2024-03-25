@@ -1,0 +1,21 @@
+.container-lg {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.question-toggle {
+    text-decoration: none;
+    color: #1b0088;
+}
+
+.info-btn {
+    border: #1b0088 solid 2px;
+    background-color: #1b0088;
+    color: white;
+    padding: 10px 20px;
+}
+
+.info-btn:hover {
+    border: #ff3d19 solid 2px;
+    color: #ff3d19;
+}
